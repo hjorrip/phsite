@@ -1,16 +1,17 @@
 # For Windows
 
 ## 1. Getting Started
-Clone this repository or directly download the `create_phishing-site.ps1` script to your local machine.
+Clone this repository or directly download the `create_phsite.ps1` script to your local machine.
 
 ## 2. Prepare PowerShell
-Open PowerShell and navigate to the directory containing the `create_phishing-site.ps1` script.
+Open PowerShell and navigate to the directory containing the `create_phsite.ps1` script.
 
 ## 3. Set Execution Policy
 To allow the script to run, you must temporarily modify the execution policy for the current PowerShell session:
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
-
+```
 
 # For MacOS
 ## Dependency: 
