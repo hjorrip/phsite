@@ -13,6 +13,15 @@ To allow the script to run, you must temporarily modify the execution policy for
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 ```
 
+## 4. Execute 
+To Execute the script, type 
+```powershell
+.\create_phsite.ps1 -Email test@tesla.com
+```
+Replace the email with any email for any domain. The script will create an output.html, which you can open up in any browser. 
+To change the portal "clone", rerun the script with a different email address, and the script will overwrite the current output.html. To view it, it's enough
+to refresh your browser after rerunninng the powershell command. 
+
 # For MacOS
 ## Dependency: 
 jq (for json parsing)
